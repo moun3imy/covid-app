@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Main({ children }) {
-  return <div className="container mx-auto p-4 m-b-2">{children}</div>;
+  return <main className="flex-grow">{children}</main>;
 }
 
 export default Main;

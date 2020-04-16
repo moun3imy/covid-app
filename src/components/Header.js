@@ -9,7 +9,7 @@ const NoDirectionChange = styled.header`
 
 function Header() {
   return (
-    <NoDirectionChange className="flex items-center justify-between bg-aqua">
+    <NoDirectionChange className="flex items-center justify-between">
       <LanguageToggle />
       <ThemeToggle byDefault="light" />
     </NoDirectionChange>
